@@ -1,14 +1,14 @@
 //
-//  NatWeexDeviceBase.m
+//  WeexNatDeviceBase.m
 //
 //  Created by huangyake on 17/1/7.
 //  Copyright © 2017 Nat. All rights reserved.
 //
 
-#import "NatWeexDeviceBase.h"
+#import "WeexNatDeviceBase.h"
 #import "NatDeviceBase.h"
 
-@implementation NatWeexDeviceBase
+@implementation WeexNatDeviceBase
 WX_EXPORT_METHOD(@selector(info:))
 
 

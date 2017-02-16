@@ -1,5 +1,5 @@
 //
-//  NatWeexDeviceBase.h
+//  WeexNatDeviceBase.h
 //
 //  Created by huangyake on 17/1/7.
 //  Copyright © 2017 Nat. All rights reserved.
@@ -9,12 +9,12 @@
 #import <WeexSDK/WeexSDK.h>
 
 
-@protocol NatWeexDeviceBasePro <WXModuleProtocol>
+@protocol WeexNatDeviceBasePro <WXModuleProtocol>
 
 - (void)info:(WXModuleCallback)callback;
 
 @end
 
-@interface NatWeexDeviceBase : NSObject<NatWeexDeviceBasePro>
+@interface WeexNatDeviceBase : NSObject<WeexNatDeviceBasePro>
 
 @end
