@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>headers
+<?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="nat-device-base"
@@ -26,6 +26,19 @@
 
      <!-- android -->
      <platform name="android">
+        <config-file target="config.xml" parent="/*">
+             <feature name="DeviceBaseModule">
+                 <param name="category" value="module" />
+                 <param name="android-package" value="com.nat.weex.DeviceBaseModule" />
+                 <param name="api" value="nat/device/base" />
+             </feature>
+        </config-file>
+
+        <source-file
+             src="android/DeviceBaseModule.java"
+            target-dir="src/com/alibaba/weex/nat/DeviceBaseModule.java" />
+
+        <framework src="com.nat:device-base:1.0.2" />
      </platform>
 
 </plugin>
