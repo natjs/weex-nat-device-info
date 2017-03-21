@@ -2,13 +2,13 @@
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="nat-device-base"
-    version="0.1.0">
+    version="0.1.2">
     <name>nat-device-base</name>
-    <description></description>
+    <description>Nat.js module: Device (base info)</description>
     <license>MIT</license>
     <keywords>weex,plugin,nat,natjs,device</keywords>
-    <repo>https://github.com/Natjs/weex-nat-device-base.git</repo>
-    <issue>https://github.com/Natjs/weex-nat-device-base/issues</issue>
+    <repo>https://github.com/natjs/weex-nat-device-base.git</repo>
+    <issue>https://github.com/natjs/weex-nat-device-base/issues</issue>
     
      <!-- ios -->
      <platform name="ios">
