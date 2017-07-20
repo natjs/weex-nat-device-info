@@ -1,8 +1,8 @@
 {
     "nameInfo": {
-        "fullname": "nat-device-base",
-        "name": "nat-device-base",
+        "fullname": "nat-device-info",
+        "name": "nat-device-info",
         "namespace": ""
     },
-    "latestVersion": "0.1.2"
+    "latestVersion": "0.1.3"
 }

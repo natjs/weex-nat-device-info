@@ -1,11 +1,11 @@
-# nat-device-base
+# nat-device-info
 
 - [Documentation](http://natjs.com/#/#device)
-- [Github](https://github.com/natjs/weex-nat-device-base)
+- [Github](https://github.com/natjs/weex-nat-device-info)
 
 ## Installation
 ```
-weexpack plugin add nat-device-base
+weexpack plugin add nat-device-info
 ```
 
 ```

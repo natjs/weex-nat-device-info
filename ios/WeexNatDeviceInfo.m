@@ -1,19 +1,20 @@
 //
-//  WeexNatDeviceBase.m
+//  WeexNatDeviceInfo.m
 //
 //  Created by huangyake on 17/1/7.
-//  Copyright © 2017 Nat. All rights reserved.
+//  Copyright © 2017 Instapp. All rights reserved.
 //
 
-#import "WeexNatDeviceBase.h"
-#import "NatDeviceBase.h"
+#import "WeexNatDeviceInfo.h"
+#import "NatDeviceInfo.h"
 
-@implementation WeexNatDeviceBase
+@implementation WeexNatDeviceInfo
+@synthesize weexInstance;
 WX_EXPORT_METHOD(@selector(info:))
 
 
 - (void)info:(WXModuleCallback)callback{
-    [[NatDeviceBase singletonManger] info:^(id error, id result) {
+    [[NatDeviceInfo singletonManger] info:^(id error, id result) {
         if (error) {
             if (callback) {
                 callback(error);

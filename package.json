@@ -1,18 +1,17 @@
 {
-  "name": "nat-device-base",
-  "version": "0.1.2",
-  "description": "Nat.js module: Device (base info)",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Nat",
-    "device",
-    "Weex",
-    "Plugin",
-    "module",
-    "handle"
-  ],
-  "author": "Acathur",
-  "license": "MIT"
+    "version": "0.1.3",
+    "platform": [
+        "ios",
+        "android"
+    ],
+    "description": "Nat.js module: Device Info",
+    "keywords": [
+        "weex",
+        "plugin",
+        "nat",
+        "natjs",
+        "device"
+    ],
+    "license": "MIT",
+    "name": "nat-device-info"
 }
