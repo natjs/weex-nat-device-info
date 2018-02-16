@@ -8,7 +8,6 @@
 #import <Foundation/Foundation.h>
 #import <WeexSDK/WeexSDK.h>
 
-
 @protocol WeexNatDeviceInfoPro <WXModuleProtocol>
 
 - (void)info:(WXModuleCallback)callback;
@@ -16,5 +15,4 @@
 @end
 
 @interface WeexNatDeviceInfo : NSObject<WeexNatDeviceInfoPro>
-
 @end

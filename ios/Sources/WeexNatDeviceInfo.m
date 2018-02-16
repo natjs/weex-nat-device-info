@@ -6,21 +6,21 @@
 //
 
 #import "WeexNatDeviceInfo.h"
-#import "NatDeviceInfo.h"
+#import <WeexPluginLoader/WeexPluginLoader.h>
+#import <NatDeviceInfo/NatDeviceInfo.h>
 
 @implementation WeexNatDeviceInfo
 @synthesize weexInstance;
-WX_EXPORT_METHOD(@selector(info:))
 
+WX_PlUGIN_EXPORT_MODULE(nat/device/info, WeexNatDeviceInfo)
+WX_EXPORT_METHOD(@selector(info:))
 
 - (void)info:(WXModuleCallback)callback{
     [[NatDeviceInfo singletonManger] info:^(id error, id result) {
-        if (error) {
-            if (callback) {
+        if (callback) {
+            if (error) {
                 callback(error);
-            }
-        }else{
-            if (callback) {
+            } else {
                 callback(result);
             }
         }
