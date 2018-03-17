@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/natjs/weex-nat-device-battery.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/natjs/weex-nat-device-info.git", :tag => s.version }
   s.source_files  = "ios/Sources/*.{h,m,mm}"
   
   s.requires_arc = true
